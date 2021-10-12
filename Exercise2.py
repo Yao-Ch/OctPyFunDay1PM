@@ -1,5 +1,5 @@
 '''
-Exercise 2:
+Exercise 2 (ExercisePy1.pdf)
     
 Step 1: Write a Python script that prompts the user for several numbers 
 (when the user enter the string "stop", the script stop asking for numbers).
@@ -19,6 +19,31 @@ the mean of all elements except the smallest and largest ones.
     =>
     [4,6,55] then compute the mean
 '''
+
+
+# # A way to remove all elements with a given value
+
+# d=[23,45,23,56,23,78]
+
+# elt=23
+# while elt in d:
+#     d.remove(elt)
+
+# print(d)
+
+# # 2 ways to access all list elements via their positions:
+# d=[23,45,23,56,23,78]
+# # Using a while loop:
+# ix=0
+# while ix < len(d):
+#     print(f"{ix} -> {d[ix]}")
+#     ix += 1
+    
+# # Using a for loop and the range() function:   
+# for ix in range(len(d)):
+#     print(f"{ix} -> {d[ix]}")
+    
+
 numbers=[]   # Creation of an empty list <=> numbers=list()
 
 # Step 1:
